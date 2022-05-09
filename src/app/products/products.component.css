@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.product-main-div{
+    overflow: hidden;
+}
+
+.upper-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+.explore-our-products{
+    width: 300px;
+}
+
+.explore-our-products h1{
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 40px;
+}
+
+.we-deliver-best-quality h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.circle-decoration{
+    width: 500px;
+    height: 500px;
+    background-color: #f59474;
+    border-radius: 50%;
+    position: absolute;
+    filter: blur(40px);
+    -webkit-filter: blur(27px);
+    z-index: -1;
+    transform: translate(-344px, -107px);
+}
+
+.navigation-button-mid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.mat-button{
+    font-size: 20px;
+    font-weight: 400px;
+    color: black;
+}
+
+.container-test-report-certificate{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.test-report-text h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.test-report-tex{
+    margin-top: 30px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+    .upper-container{
+        margin-left: 130px;
+    }
+    .we-deliver-best-quality{
+        display: none;
+    }
+
+    .navigation-button-mid{   
+        transform: translate(-468px, 10px);
+        font-size: 30px;
+        margin-left: 486px;
+        margin-right: -465px;
+        
+    }
+    .navigation-button-mid .mat-button{
+        font-size: 15px;
+    }
+
+    .text-report-container img{
+        height: 50px;
+    }
+
+    .text-certificate-img{
+        height: 600px;
+    }
+}

@@ -1,0 +1,10 @@
+table.redTable tbody {
+    height: 30px;
+    font-size: 23px;
+    color: #333333;
+}
+
+th{
+    font-size: 25px;
+    font-weight: 900;
+}

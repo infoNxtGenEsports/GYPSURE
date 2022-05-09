@@ -1,0 +1,29 @@
+table.redTable {
+    background-color: #EEEEEE;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+  }
+table.redTable td, table.redTable th {
+}
+table.redTable tbody td {
+    height: 30px;
+    font-size: 13px;
+    color: #333333;
+}
+table.redTable thead {
+    background: #F24005;
+}
+table.redTable thead th {
+    height: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+}
+table.redTable tfoot {
+    font-weight: bold;
+}
+
+.text-table-content-container{
+    margin-top: 50px;
+}

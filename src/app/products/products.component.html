@@ -1,0 +1,26 @@
+<div class="products-main-div">
+    <div class="upper-container flex-upper">
+        <div class="explore-our-products"><h1>Explore Our Products</h1></div>
+        <div class="we-deliver-best-quality"><h3>We Deliver Best In Quality</h3></div>
+    
+        <div class="circle-decoration"></div>
+    </div>
+    
+    <div class="navigation-button-mid">
+        <button mat-button (click)="makeItFalse()" color="primary">GYPSURE PLUS GYPSUM POWDER</button>
+        <button mat-button (click)="makeItTrue()" color="accent">GYPSURE BONDS</button>
+    </div>
+    
+    <app-product-one *ngIf="!isClicked"></app-product-one>
+    <app-product-two *ngIf="isClicked"></app-product-two>
+    
+    <div *ngIf="!isClicked" class="container-test-report-certificate">
+        <div class="test-report-text">
+            <h1>Test Report</h1>
+        </div>
+        <div class="test-report-container" >
+            <img class="text-certificate-img" src="https://i.ibb.co/sPDWBPc/test-reports-certificate.jpg" alt="">
+        </div>
+    </div>
+</div>
+
